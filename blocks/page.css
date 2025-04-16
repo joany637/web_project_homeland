@@ -1,0 +1,8 @@
+.page{
+    background: #2A2C2F;
+    min-width:  1100px; /*tamaño minimo del bloque */
+    max-width: 1600px; /*tamaño maximo del bloque */
+    font-size: 16px; /* Tamaño de fuente */
+    line-height: 20px; /* Altura de línea */
+    box-sizing: border-box;
+    }

@@ -1,0 +1,43 @@
+
+
+.intro{
+    color:  rgba(255, 255, 255, 1);
+    width: 830px;
+    height: 607px;
+    top: 1269px;
+    padding-left: 148px;   
+   
+}
+.intro__title{
+    color:  rgba(255, 255, 255, 1);
+    font-family: "Inter";
+    font-size: 54px;
+    line-height: 58px;
+    width: 830px;
+    height: 173px;
+}
+.intro__text{
+    color:  rgba(255, 255, 255, 1);
+    font-family: "Inter";
+    font-size: 24px;
+    line-height: 34px;
+    width: 738px;
+    height: 135px;
+}
+.intro__name{
+    color:  rgba(255, 255, 255, 1);
+    font-family: "Inter";
+    font-size: 24px;
+    line-height: 34px;
+    text-align: right;
+    width: 732px;
+    height: 33px;
+}
+.intro__third_text{
+    color:  rgba(255, 255, 255, 1);
+    font-family: "Inter";
+    font-size: 16px;
+    line-height: 163%;
+    width: 722px;
+    height: 181px ;
+}

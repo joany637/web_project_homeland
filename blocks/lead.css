@@ -1,0 +1,33 @@
+
+
+.lead{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+
+}
+.lead__title{
+ font-family:"Inter";
+font-size: 96px;
+line-height: 100px;
+text-align: center;
+width: 720px;
+height: 200px;
+color:  rgba(255, 255, 255, 1);
+
+}
+.lead__subtitle{
+ width: 720px;
+height: 72px;
+top: 426px;
+left: 280px;
+color:  rgba(255, 255, 255, 1);
+font-family: "Inter";
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+}
+.lead__image{
+ width: 984px;
+height: 615px;
+}

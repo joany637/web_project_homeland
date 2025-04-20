@@ -34,9 +34,6 @@ margin: auto;
 .lead__title{
 font-size: 75px;
 line-height: 79px;}
-.lead__subtitle{
-font-weight: 400px;
-}
 }
 
 @media screen and (max-width:767px) and (min-width:100px){

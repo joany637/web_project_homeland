@@ -1,20 +1,10 @@
 
 .logo{
  padding-top: 34px;
-    left: 513px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+margin: 0 auto 56px;
+max-width: 255px;
+display: block;
 }
-.logo__blue{
- width: 32px;
-height: 32px;
-left: 111px;
-}
-.logo__word{
-    width: 254px;
-    height: 14px;
-    top: 54px;    
-}
+
+
+

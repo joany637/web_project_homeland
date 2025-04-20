@@ -2,42 +2,59 @@
 
 .intro{
     color:  rgba(255, 255, 255, 1);
-    width: 830px;
-    height: 607px;
-    top: 1269px;
-    padding-left: 148px;   
-   
+   max-width: 830px;
+  margin: 0 auto ;
+  padding: 0 10px 0;
 }
 .intro__title{
-    color:  rgba(255, 255, 255, 1);
     font-family: "Inter";
+    font-weight: 900;
     font-size: 54px;
     line-height: 58px;
-    width: 830px;
-    height: 173px;
+    max-width: 830px;
+
 }
 .intro__text{
-    color:  rgba(255, 255, 255, 1);
     font-family: "Inter";
     font-size: 24px;
     line-height: 34px;
-    width: 738px;
-    height: 135px;
+    max-width: 738px;
 }
 .intro__name{
-    color:  rgba(255, 255, 255, 1);
+
     font-family: "Inter";
     font-size: 24px;
     line-height: 34px;
     text-align: right;
-    width: 732px;
-    height: 33px;
+    max-width: 732px;
 }
 .intro__third_text{
-    color:  rgba(255, 255, 255, 1);
+ 
     font-family: "Inter";
     font-size: 16px;
     line-height: 163%;
-    width: 722px;
-    height: 181px ;
+    max-width: 722px;
+
 }
+
+@media screen and (max-width:984px) and (min-width:768px){
+    .intro__title{
+        font-size: 45px;
+        line-height: 49px;
+        max-width: 707px;
+        }
+    }
+    @media screen and (max-width:767px) and (min-width:100px){ 
+        .intro__title{
+font-size: 32px;
+line-height: 35px;
+max-width: 288px;
+        }
+        .intro__text{
+            font-size: 18px;
+            line-height: 30px; 
+            }
+            .intro__name{
+                font-size: 18px;
+            }
+        }

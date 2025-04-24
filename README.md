@@ -1,2 +1,2 @@
 # Tripleten web_project_homeland
-https://github.com/joany637/web_project_homeland.git
+https://joany637.github.io/web_project_homeland/

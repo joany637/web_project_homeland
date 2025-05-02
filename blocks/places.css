@@ -1,0 +1,47 @@
+.places{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+max-width: 987px;
+max-height: 3367;
+}
+.title__gales{
+max-width: 460px;
+max-height: 152px;
+color : rgba(255, 255, 255, 1);
+font-family: 'Inter';
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+}
+.img__gales{
+    max-width: 460px;
+    max-height: 460px;
+}
+.name__artist{
+font-family:' Inter';
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+text-transform: uppercase;
+color : rgba(170, 170, 170, 1);
+max-width: 85px;
+max-height: 15px;
+}
+.paragraph__artist{
+   color: rgba(255, 255, 255, 1);
+   font-family: 'Inter';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+   max-width: 455px;
+ max-height: 22px;
+}
+.paragraph__gales{
+max-width: 484px;
+max-height: 203px;
+color: rgba(255, 255, 255, 1);
+font-family: 'Inter';
+font-weight: 400;
+font-size: 18px;
+line-height: 163%;
+}

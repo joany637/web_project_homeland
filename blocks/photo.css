@@ -1,0 +1,11 @@
+.photo_grid{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 40px;
+    padding-left: 43px;
+}
+.photo__item{
+max-width:284px;
+max-height:213px;
+}

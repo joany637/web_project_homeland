@@ -1,6 +1,7 @@
 .place{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-right: 145px;
     }
 .place__title{
 color : rgba(255, 255, 255, 1);
@@ -14,11 +15,14 @@ margin: 0 40px 48px 151px;
     grid-row-end: 2;
     width: 460px;
     margin: 0 40px 48px 151px;
+    box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
 }
 
 .place__artist{
-    display: grid;
-    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: flex-end;
 }
 .place__artist-name{
     /* line-height: 100%; */
@@ -51,8 +55,17 @@ padding-right: 20px;
 padding-bottom: 13px;
 padding-left: 20px;
 background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%); 
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 font-family: 'Inter';
 color: rgba(255, 255, 255, 1);
 margin: 0px 191px 91px 151px;
 }
+ .place__button:hover{
+    background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
 
+ }
+
+ .place__image:hover{
+    opacity:0.6;
+
+ }

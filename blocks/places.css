@@ -1,33 +1,39 @@
 .places{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-max-width: 987px;
-max-height: 3367;
-}
-.title__gales{
-max-width: 460px;
-max-height: 152px;
+    grid-template-columns: repeat(2, 1fr);
+    }
+.place__title{
+width: 460px;
+height: 152px;
 color : rgba(255, 255, 255, 1);
 font-family: 'Inter';
-font-weight: 900;
 font-size: 72px;
 line-height: 76px;
+margin: 0 40px 48px 151px;
 }
-.img__gales{
-    max-width: 460px;
-    max-height: 460px;
+.place__img{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 460px;
+    height: 460px;
+    margin: 0 40px 48px 151px;
 }
-.name__artist{
-font-family:' Inter';
-font-weight: 400;
-font-size: 12px;
-line-height: 100%;
-text-transform: uppercase;
-color : rgba(170, 170, 170, 1);
-max-width: 85px;
-max-height: 15px;
+
+.paces__artist{
+    display: grid;
+    justify-content: start;
 }
-.paragraph__artist{
+.place__artist{
+    margin: auto;
+}
+.place__name{
+    /* line-height: 100%; */
+    text-transform: uppercase;
+    color: rgba(170, 170, 170, 1);
+    width: 85px;
+    height: 15px;
+}
+.place__paragraph{
    color: rgba(255, 255, 255, 1);
    font-family: 'Inter';
    font-weight: 400;
@@ -36,7 +42,7 @@ max-height: 15px;
    max-width: 455px;
  max-height: 22px;
 }
-.paragraph__gales{
+.place__paragraph-gales{
 max-width: 484px;
 max-height: 203px;
 color: rgba(255, 255, 255, 1);
@@ -44,4 +50,256 @@ font-family: 'Inter';
 font-weight: 400;
 font-size: 18px;
 line-height: 163%;
+}
+.place__button{
+  width: 289px ;
+height: 48px;
+border-radius: 4px;
+padding-top: 13px;
+padding-right: 20px;
+padding-bottom: 13px;
+padding-left: 20px;
+background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%); 
+font-family: 'Inter';
+color: rgba(255, 255, 255, 1);
+margin: 0px 191px 91px 151px;
+}
+
+
+/*2*/
+.places{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    }
+.place__title-berea{
+color : rgba(255, 255, 255, 1);
+font-family: 'Inter';
+font-size: 72px;
+line-height: 76px;
+margin: 0 40px 48px 151px;
+
+}
+.place__img-berea{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    width: 460px;
+    height: 460px; 
+    margin: 0 40px 48px 151px;
+}
+
+.place__artist-berea{
+    display: flex
+;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.place__name-berea{
+
+    font-family: 'Inter';
+    text-transform: uppercase;
+    color: rgba(170, 170, 170, 1);
+    margin: 0;
+}
+.place__paragraph-berea{
+
+   color: rgba(255, 255, 255, 1);
+   font-family: 'Inter';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 1.7;
+   margin: 0;
+
+}
+.place__paragraph-berea{
+
+color: rgba(255, 255, 255, 1);
+font-family: 'Inter';
+font-weight: 400;
+font-size: 18px;
+line-height: 1.9;
+}
+.places__paragraph-berea{
+
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.9;
+    }
+.place__button{
+  width: 289px ;
+height: 48px;
+border-radius: 4px;
+padding-top: 13px;
+padding-right: 20px;
+padding-bottom: 13px;
+padding-left: 20px;
+background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%); 
+font-family: 'Inter';
+color: rgba(255, 255, 255, 1);
+margin: 0px 191px 91px 151px;
+}
+
+
+/*3*/
+.places{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+.place__title-burundi{
+
+color : rgba(255, 255, 255, 1);
+font-family: 'Inter';
+font-size: 72px;
+line-height: 76px;
+margin: 0 40px 48px 151px;
+}
+.place__img-burundi{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin: 0 40px 48px 151px;
+    width: 460px;
+height: 460px;
+
+}
+
+.place__artist-burindi{
+    display: flex ;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 40px;
+}
+
+
+.place__name-burindi{
+    font-family: 'Inter';
+    text-transform: uppercase;
+    color: rgba(170, 170, 170, 1);
+    margin: 0;
+}
+.place__paragraph-burundi{
+   color: rgba(255, 255, 255, 1);
+   font-family: 'Inter';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 1.5px;
+   margin: 0;
+ 
+}
+.place__paragraph-burundi{
+
+color: rgba(255, 255, 255, 1);
+font-family: 'Inter';
+font-weight: 400;
+font-size: 18px;
+line-height: 1.7;
+}
+
+.places__paragraph-burundi{
+
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+    }
+    .place__paragraph-burundi{
+
+        color: rgba(255, 255, 255, 1);
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.7;
+        }
+.place__button{
+  width: 289px ;
+height: 48px;
+border-radius: 4px;
+padding-top: 13px;
+padding-right: 20px;
+padding-bottom: 13px;
+padding-left: 20px;
+background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%); 
+font-family: 'Inter';
+color: rgba(255, 255, 255, 1);
+margin: 0px 211px 183px 151px;
+}
+
+
+/*4*/
+.place{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+.place__title-esme{
+
+color : rgba(255, 255, 255, 1);
+font-family: 'Inter';
+font-size: 72px;
+line-height: 76px;
+margin: 0 40px 48px 151px;
+}
+.place__img-esme{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin: 0 40px 48px 151px;
+    width: 460px;
+height: 460px;
+
+}
+
+.place__artist-esme{
+    display: flex ;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+.place__name-esme{
+    font-family: 'Inter';
+    text-transform: uppercase;
+    color: rgba(170, 170, 170, 1);
+    margin: 0;
+}
+.place__paragraph-esme{
+   color: rgba(255, 255, 255, 1);
+   font-family: 'Inter';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+margin: 0;
+}
+.place__paragraph-esme{
+
+color: rgba(255, 255, 255, 1);
+font-family: 'Inter';
+font-weight: 400;
+font-size: 18px;
+line-height: 2;
+}
+
+.places__paragraph-esme{
+ 
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 2;
+    }
+
+.place__button{
+  width: 289px ;
+height: 48px;
+border-radius: 4px;
+padding-top: 13px;
+padding-right: 20px;
+padding-bottom: 13px;
+padding-left: 20px;
+background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%); 
+font-family: 'Inter';
+color: rgba(255, 255, 255, 1);
+margin: 0px 211px 183px 151px;
 }

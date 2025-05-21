@@ -6,4 +6,22 @@
     width: 1280px;
     margin-left: auto;
     margin-right: auto;
+        padding: 0 20px;
     }
+    
+/* Tablets (>= 768px y < 1280px) */
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+    .page {
+        width: 100%; /* usa todo el ancho disponible */
+        max-width: 768px;
+        padding: 0 20px;
+    }
+}
+
+/* Móviles (menor a 768px) */
+@media screen and (max-width: 767px) {
+    .page {
+        width: 100%;
+        padding: 0 16px; /* un poco menos de padding en móvil */
+    }
+}

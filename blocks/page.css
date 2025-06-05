@@ -1,27 +1,12 @@
-.page{
-    background: #2A2C2F;
-    font-size: 16px; /* Tamaño de fuente */
-    line-height: 20px; /* Altura de línea */
-    box-sizing: border-box;
-    width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-        padding: 0 20px;
-    }
-    
-/* Tablets (>= 768px y < 1280px) */
-@media screen and (max-width: 1279px) and (min-width: 768px) {
-    .page {
-        width: 100%; /* usa todo el ancho disponible */
-        max-width: 768px;
-        padding: 0 20px;
-    }
+.page {
+  background: #2a2c2f;
+  font-size: 16px; /* Tamaño de fuente */
+  line-height: 20px; /* Altura de línea */
+  box-sizing: border-box;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+
+  min-width: 320px;
 }
 
-/* Móviles (menor a 768px) */
-@media screen and (max-width: 767px) {
-    .page {
-        width: 100%;
-        padding: 0 16px; /* un poco menos de padding en móvil */
-    }
-}
